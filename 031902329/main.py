@@ -309,7 +309,7 @@ def output(path3):
                     zji += ans[i][0][o]
                 o += 1
             yuanchar = zji
-        fh.write('Line' + str(ans[i][3]) + ':<' + str(yuanchar) + '>')
+        fh.write('Line' + str(ans[i][3]) + ': <' + str(yuanchar) + '> ')
         ggg = str(ansyong[ans[i][3] - 1])
         j = ans[i][1]
         while j < ans[i][2] - 1:
