@@ -290,7 +290,7 @@ def output(path3):
     输出函数，将结果保存在指定的文件中
     """
     fh = open(path3, 'a', encoding="utf-8")
-    fh.write('Total:{}'.format(len(ans)) + '\n')
+    fh.write('Total: {}'.format(len(ans)) + '\n')
     i = 0
     while i < len(ans):
         if ans[i][0] in duiying.keys():
